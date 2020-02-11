@@ -1,0 +1,244 @@
+/* parte generale */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  background: #16a085;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* fine parte generale */
+
+/* stilizzazione template */
+.wrapper{
+  position: relative;
+  display: flex;
+}
+
+.sidebar{
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #2c3e50;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  margin-left: 200px;
+  overflow-y: auto;
+}
+/* fine stilizzazione template */
+
+/* sidebar */
+.sidebar .logo{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom:1px solid #bdc3c7;
+}
+
+.sidebar i{
+  padding-right: 5px;
+}
+
+.sidebar .logo img{
+  transform: scale(60%);
+  margin-bottom: 20px;
+}
+
+.sidebar .menu{
+  width: 100%;
+  height: 85%;
+  padding: 10px 0;
+  color: #bdc3c7;
+  border-bottom:1px solid #bdc3c7;
+}
+
+.sidebar .menu .home,
+.sidebar .menu .src,
+.sidebar .menu .lib{
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.sidebar .menu .home:hover,
+.sidebar .menu .src:hover,
+.sidebar .menu .lib:hover{
+  color: #fff;
+}
+
+.menu .home a{
+  text-decoration: none;
+  color: #bdc3c7;
+}
+
+.menu .home a:hover{
+  color: #fff;
+}
+
+.sidebar .menu .src input{
+  border: none;
+  background: none;
+  color: #bdc3c7;
+}
+
+.sidebar .menu h6{
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.sidebar .menu button{
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-bottom: 30px;
+  color: #bdc3c7;
+}
+
+.sidebar .menu button:hover{
+  color: #fff;
+}
+
+.sidebar .menu button::before{
+  content: "+";
+  width: 20px;
+  height: 20px;
+  background: #bdc3c7;
+  margin-right: 10px;
+  padding: 10px 15px;
+  color: black;
+  font-weight: 900;
+}
+
+.sidebar .account{
+  width: 100%;
+  height: 5%;
+  padding-top: 10px;
+}
+/*fine sidebar */
+
+/* inizio main */
+/* header */
+header{
+  height: 75px;
+  background: #2c3e5090;
+  position: fixed;
+  top: 0;
+  left: 200px;
+  right: 0;
+  text-align: right;
+}
+
+header a{
+  line-height: 75px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  margin-right: 10px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  padding: 5px 30px;
+  height: 30px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+header a:hover{
+  color: #1db954;
+  border-color: #1db954;
+}
+/* fine header */
+
+/* navbar */
+.navbar{
+  height: 40px;
+  text-align: center;
+  position: fixed;
+  top: 75px;
+  left: 200px;
+  right: 0;
+}
+
+.navbar ul{
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.navbar li{
+  display: inline-block;
+  line-height: 40px;
+  padding: 0 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  color: #9ecadd;
+}
+
+.navbar li::before{
+  content: "";
+  width: 50%;
+  position: absolute;
+  border-bottom: 4px solid #1db954;
+  bottom: 5px;
+  left: -350px;
+  transition: 0.3s all;
+  border-radius: 50px;
+}
+
+.navbar li:hover:before{
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+
+
+
+/* fine navbar */
+
+/* recply(recently played) */
+.recply{
+  margin-top: 115px;
+  padding: 20px;
+}
+
+
+
+
+
+/* fine recply(recently played) */
+
+
+
+
+
+
+
+
+/* fine inizio main */
