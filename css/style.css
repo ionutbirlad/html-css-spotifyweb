@@ -228,6 +228,36 @@ header a:hover{
   padding: 20px;
 }
 
+.recply .row.one{
+  padding-bottom: 30px;
+}
+
+.recply .row.two{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.recply .row.two .card{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.recply .row.two .card img{
+  margin-bottom: 15px;
+}
+
+.recply .row.two .card h5{
+
+}
+
+.recply .row.two .card p{
+
+}
+
 
 
 
