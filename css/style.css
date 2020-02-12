@@ -139,6 +139,7 @@ body{
   padding: 10px 15px;
   color: black;
   font-weight: 900;
+  border-radius: 5px;
 }
 
 .sidebar .account{
