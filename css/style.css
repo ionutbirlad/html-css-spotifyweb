@@ -299,6 +299,7 @@ header a:hover{
 /* popular */
 .popular{
   padding: 20px;
+  margin-bottom: 100px;
 }
 
 .popular .row.one{
