@@ -151,6 +151,7 @@ header{
   left: 200px;
   right: 0;
   text-align: right;
+  z-index: 9999;
 }
 
 header a{
@@ -181,6 +182,7 @@ header a:hover{
   top: 75px;
   left: 200px;
   right: 0;
+  z-index: 9999;
 }
 
 .navbar ul{
@@ -235,7 +237,7 @@ header a:hover{
 .recply .row.two{
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
+  justify-content: flex-start: ;
 }
 
 .recply .row.two .card{
@@ -244,6 +246,7 @@ header a:hover{
   flex: 0 0 150px;
   align-items: center;
   justify-content: center;
+  padding-right: 30px;
 }
 
 .recply .row.two .card img{
@@ -257,13 +260,74 @@ header a:hover{
 .recply .row.two .card p{
 
 }
-
-
-
-
-
 /* fine recply(recently played) */
 
+/* created_For */
+.created_for{
+  padding: 20px;
+}
+
+.created_for .row.one{
+  padding-bottom: 30px;
+}
+
+.created_for .row.two{
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.created_for .row.two .card{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 150px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.created_for .row.two .card img{
+  margin-bottom: 15px;
+}
+
+.created_for .row.two .card h5{
+
+}
+/*fine  created_For */
+
+/* popular */
+.popular{
+  padding: 20px;
+}
+
+.popular .row.one{
+  padding-bottom: 30px;
+}
+
+.popular .row.two{
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.popular .row.two .card{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 150px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30px;
+}
+
+.popular .row.two .card img{
+  margin-bottom: 15px;
+  border-radius: 100px;
+}
+
+.popular .row.two .card h5{
+
+}
+/* fine popular */
 
 
 
@@ -271,4 +335,5 @@ header a:hover{
 
 
 
-/* fine inizio main */
+
+/* fine main */
