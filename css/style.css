@@ -7,7 +7,6 @@
 }
 
 body{
-  /* background: #16a085; */
   background: rgb(52,73,94);
   background: linear-gradient(156deg, rgba(52,73,94,1) 0%, rgba(0,0,0,1) 100%);
   background-attachment: fixed;
@@ -42,6 +41,7 @@ body{
   padding: 10px;
   display: flex;
   flex-direction: column;
+  overflow-y: auto;
 }
 
 .main{
@@ -189,6 +189,11 @@ body{
 .main img{
   border-radius: 5px;
 }
+
+.main .row{
+  flex-wrap: wrap;
+  flex: 1 1 150px;
+}
 /* header */
 header{
   height: 75px;
@@ -279,16 +284,17 @@ header a:hover{
 .recply .row.two{
   display: flex;
   align-items: baseline;
-  justify-content: flex-start: ;
+  justify-content: flex-start;
 }
 
 .recply .row.two .card{
   display: flex;
   flex-direction: column;
-  flex: 0 0 150px;
+  width: 150px;
   align-items: center;
   justify-content: center;
-  padding-right: 30px;
+  margin-right: 30px;
+  flex-wrap: wrap;
 }
 
 .recply .row.two .card img{
@@ -322,10 +328,10 @@ header a:hover{
 .created_for .row.two .card{
   display: flex;
   flex-direction: column;
-  flex: 0 0 150px;
   align-items: center;
   justify-content: center;
-  padding-right: 30px;
+  width: 150px;
+  margin-right: 30px;
 }
 
 .created_for .row.two .card img{
@@ -356,10 +362,10 @@ header a:hover{
 .popular .row.two .card{
   display: flex;
   flex-direction: column;
-  flex: 0 0 150px;
   align-items: center;
   justify-content: center;
-  padding-right: 30px;
+  width: 150px;
+  margin-right: 30px;
 }
 
 .popular .row.two .card img{
@@ -389,6 +395,14 @@ header a:hover{
   align-items: center;
   justify-content: space-between;
   padding: 0 10px;
+}
+
+.player i{
+
+}
+
+.player i:hover{
+  transform: scale(105%);
 }
 
 .player .container .left{
