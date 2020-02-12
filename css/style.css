@@ -52,7 +52,7 @@ body{
 /* sidebar */
 .sidebar .logo{
   width: 100%;
-  height: 10%;
+  height: 65px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,7 +70,7 @@ body{
 
 .sidebar .menu{
   width: 100%;
-  height: 84.5%;
+  height: 600px;
   padding: 10px 0;
   color: #bdc3c7;
   border-bottom:1px solid #bdc3c7;
@@ -136,8 +136,9 @@ body{
 
 .sidebar .account{
   width: 100%;
-  height: 5.5%;
+  height: 35px;
   padding-top: 10px;
+  justify-content: flex-end;
 }
 /*fine sidebar */
 
@@ -348,15 +349,65 @@ header a:hover{
   padding: 0 10px;
 }
 
+.player .container .left{
+  height: 50px;
+}
+
 .player .container .left .half.one{
-  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   float: left;
 }
 
-.player .container .left .half.two{
-  width: 50%;
+.player .container .left img{
   float: left;
 }
+
+.player .container .left .txt{
+  height: 50px;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.player .container .left h5{
+  float: right;
+}
+
+.player .container .left p{
+  float: right;
+  font-size: 12px;
+}
+
+.player .container .left .half.two{
+  height: 50px;
+  float: right;
+  padding-left: 35px;
+}
+
+.player .container .left .half.two i{
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.player .container .center i{
+  cursor: pointer;
+  padding: 0 10px;
+  line-height: 50px;
+}
+
+.player .container .center .fa-play-circle{
+  font-size: 25px;
+}
+
+
+
+
 
 
 
