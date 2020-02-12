@@ -30,7 +30,7 @@ body{
 
 .sidebar{
   width: 200px;
-  height: calc(100vh - 50px);
+  height: calc(100vh - 60px);
   position: fixed;
   top: 0;
   left: 0;
@@ -394,6 +394,8 @@ header a:hover{
 .player .container .left .half.two i{
   line-height: 60px;
   font-size: 20px;
+  cursor: pointer;
+  padding: 0 5px;
 }
 
 .player .container .center{
@@ -444,19 +446,27 @@ header a:hover{
   font-size: 14px;
 }
 
-
-
-
-
-
-
-
-
 .player .container .right{
   width: 200px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.player .container .right i{
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.player .container .right .bar{
+  width: 70px;
+  height: 2px;
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  margin: 0 auto;
+  position: relative;
+  float: right;
+}
 /*fine  player */
 
 
