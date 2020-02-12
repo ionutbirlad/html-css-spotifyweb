@@ -374,7 +374,7 @@ header a:hover{
 /* player */
 .player{
   height: 60px;
-  background: #f1c40f;
+  background: #34495e;
   position: fixed;
   bottom: 0;
   left: 0px;
@@ -466,7 +466,8 @@ header a:hover{
 .player .container .center .row.two .bar{
   width: 40%;
   height: 2px;
-  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  background: rgb(52,73,94);
+  background: linear-gradient(280deg, rgba(52,73,94,1) 0%, rgba(0,0,0,1) 100%);
   margin: 0 auto;
   position: relative;
 }
@@ -505,7 +506,8 @@ header a:hover{
 .player .container .right .bar{
   width: 70px;
   height: 2px;
-  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+  background: rgb(52,73,94);
+  background: linear-gradient(280deg, rgba(52,73,94,1) 0%, rgba(0,0,0,1) 100%);
   margin: 0 auto;
   position: relative;
   float: right;
