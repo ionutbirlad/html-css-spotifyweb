@@ -30,7 +30,7 @@ body{
 
 .sidebar{
   width: 200px;
-  height: 100vh;
+  height: calc(100vh - 50px);
   position: fixed;
   top: 0;
   left: 0;
@@ -331,20 +331,31 @@ header a:hover{
 
 /* player */
 .player{
-  height: 45px;
+  height: 50px;
   background: #f1c40f;
   position: fixed;
   bottom: 0;
-  left: 200px;
+  left: 0px;
   right: 0;
   z-index: 9999;
 }
 
 .player .container{
+  max-width: 1400px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
+  padding: 0 10px;
+}
+
+.player .container .left .half.one{
+  width: 50%;
+  float: left;
+}
+
+.player .container .left .half.two{
+  width: 50%;
+  float: left;
 }
 
 
