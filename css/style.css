@@ -438,15 +438,13 @@ header a:hover{
 }
 
 .player .container .left p{
-  float: right;
-  font-size: 12px;
+  font-size: 10px;
   letter-spacing: normal;
 }
 
 .player .container .left .half.two{
   height: 60px;
   float: right;
-  /* padding-left: 20px; */
 }
 
 .player .container .left .half.two i{

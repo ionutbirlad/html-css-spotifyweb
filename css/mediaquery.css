@@ -46,11 +46,21 @@
   .popular .row.two{
     justify-content: center;
   }
-
-
-
-
-
-
   /* fine cotenuto MAIN */
+
+  /* PLAYER */
+  .player .container .left img{
+    float: none;
+  }
+  .player .container .left .txt{
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  .player .container .left p{
+    margin-left: 10px;
+  }
+  .player i{
+    font-size: 12px;
+  }
+  /* fine PLAYER */
 }
