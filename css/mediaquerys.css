@@ -67,6 +67,9 @@
   .player .container .left .half.two{
     display: none;
   }
+  .player .container .center .row.two .bar{
+    width: 70%;
+  }
   /* fine PLAYER */
 }
 
@@ -178,6 +181,9 @@
   }
   .player .container .left .half.two{
     display: none;
+  }
+  .player .container .center .row.two .bar{
+    width: 90%;
   }
   /* fine PLAYER */
   /* fine cotenuto MAIN */
