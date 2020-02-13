@@ -27,6 +27,9 @@
   .sidebar i{
     display: none;
   }
+  .sidebar .account i{
+    display: none;
+  }
   .sidebar button::before{
     display: none;
   }
