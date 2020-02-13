@@ -83,13 +83,18 @@ body{
 
 .sidebar .menu .home,
 .sidebar .menu .src,
-.sidebar .menu .lib{
+.sidebar .menu .lib a{
   margin-bottom: 15px;
   cursor: pointer;
 }
 
+.sidebar .menu .lib a{
+  text-decoration: none;
+  color: #fff;
+}
+
 .sidebar .menu .home a:hover,
-.sidebar .menu .lib:hover{
+.sidebar .menu .lib a:hover{
   color: #1db954;
 }
 
