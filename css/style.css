@@ -531,12 +531,39 @@ header a:hover{
   float: right;
 }
 /*fine  player */
-
-
-
-
-
-
-
-
 /* fine main */
+
+
+
+
+.show-menu-btn,
+.hide-menu-btn{
+  transition: 0.4s;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.show-menu-btn{
+  float: right;
+}
+
+.show-menu-btn i{
+  /* line-height: 100px; */
+}
+
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color: #3498db;
+}
+
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -9999;
+}
+
+.navbar .show-menu-btn{
+  right: 50%;
+}

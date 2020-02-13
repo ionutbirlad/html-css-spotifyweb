@@ -38,6 +38,13 @@
 
         <section class="navbar">
           <div class="container">
+          <!-- HIDDEN -->
+          <!-- Deve stare all'interno di .navbar .container!! -->
+          <input type="checkbox" id="chk">
+          <!-- HIDDEN -->
+          <label for="chk" class="show-menu-btn">
+          <i class="fas fa-ellipsis-h">CATEGORIE</i>
+          </label>
             <ul>
               <li>in evidenza</li>
               <li>podcast</li>
@@ -45,6 +52,9 @@
               <li>generi e mood</li>
               <li>nuove uscite</li>
               <li>scopri</li>
+              <label for="chk" class="hide-menu-btn">
+              <i class="fas fa-times"></i>
+              </label>
             </ul>
           </div>
         </section>
