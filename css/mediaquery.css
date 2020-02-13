@@ -53,14 +53,19 @@
     float: none;
   }
   .player .container .left .txt{
-    font-size: 10px;
-    margin-left: 5px;
+    display: none;
   }
   .player .container .left p{
     margin-left: 10px;
   }
   .player i{
     font-size: 12px;
+  }
+  .player .container .right .bar{
+    display: none;
+  }
+  .player .container .left .half.two{
+    display: none;
   }
   /* fine PLAYER */
 }
@@ -157,15 +162,33 @@
     float: none;
   }
   .player .container .left .txt{
-    font-size: 10px;
-    margin-left: 5px;
+    display: none;
   }
   .player .container .left p{
     margin-left: 10px;
   }
   .player i{
-    font-size: 12px;
+    font-size: 10px;
+  }
+  .player .container .center .fa-play-circle{
+    font-size: 18px;
+  }
+  .player .container .right .bar{
+    display: none;
+  }
+  .player .container .left .half.two{
+    display: none;
   }
   /* fine PLAYER */
   /* fine cotenuto MAIN */
+}
+
+@media all and (max-width: 322px) {
+  header a{
+    font-size: 8px;
+    padding: 5px 15px;
+  }
+  .player i{
+    font-size: 7px;
+  }
 }
