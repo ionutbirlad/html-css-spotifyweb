@@ -36,7 +36,14 @@
   /* fine SIDEBAR */
 
   /* cotenuto MAIN */
-  .main .row{
+  .recply .row.one,
+  .created_for .row.one,
+  .popular .row.one{
+    text-align: center;
+  }
+  .recply .row.two,
+  .created_for .row.two,
+  .popular .row.two{
     justify-content: center;
   }
 
