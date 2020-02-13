@@ -232,6 +232,40 @@ header a:hover{
 /* fine header */
 
 /* navbar */
+/* parte show/hide menu */
+.show-menu-btn,
+.hide-menu-btn{
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.show-menu-btn{
+  float: right;
+}
+
+
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover{
+  color: #3498db;
+}
+
+#chk{
+  position: absolute;
+  visibility: hidden;
+  z-index: -9999;
+}
+
+.navbar .show-menu-btn{
+  margin-right: 50%;
+  transform: translateX(50%);
+  font-size: 15px;
+  line-height: 30px;
+}
+/*fine parte show/hide menu */
+
 .navbar{
   /* height: 40px; */
   text-align: center;
@@ -532,41 +566,3 @@ header a:hover{
 }
 /*fine  player */
 /* fine main */
-
-
-
-
-.show-menu-btn,
-.hide-menu-btn{
-  transition: 0.4s;
-  font-size: 30px;
-  cursor: pointer;
-  display: none;
-}
-
-.show-menu-btn{
-  float: right;
-}
-
-.show-menu-btn i{
-  /* line-height: 100px; */
-}
-
-.menu a:hover,
-.show-menu-btn:hover,
-.hide-menu-btn:hover{
-  color: #3498db;
-}
-
-#chk{
-  position: absolute;
-  visibility: hidden;
-  z-index: -9999;
-}
-
-.navbar .show-menu-btn{
-  margin-right: 50%;
-  transform: translateX(50%);
-  font-size: 15px;
-  line-height: 30px;
-}
