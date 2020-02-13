@@ -70,6 +70,9 @@
   .player .container .center .row.two .bar{
     width: 70%;
   }
+  .player .container .left i{
+    display: none;
+  }
   /* fine PLAYER */
 }
 
