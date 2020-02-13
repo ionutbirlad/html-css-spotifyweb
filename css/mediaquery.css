@@ -1,8 +1,35 @@
-@media all and (max-width: 800px) {
+@media all and (max-width: 758px) {
+  /* SIDEBAR */
+  .sidebar{
+    width: 100px;
+  }
+  .main{
+    margin-left: 100px;
+  }
+  header{
+    left: 100px;
+  }
   .navbar{
-    height: 80px;
+    left: 100px;
   }
-  .recply{
-    margin-top: 155px;
+  .sidebar{
+    text-align: center;
   }
+  .sidebar .logo img{
+    transform: scale(100%);
+  }
+  .sidebar i{
+    display: none;
+  }
+  .sidebar button::before{
+    display: none;
+  }
+
+
+
+
+
+
+
+  /* fine SIDEBAR */
 }
