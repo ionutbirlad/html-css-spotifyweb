@@ -288,13 +288,13 @@ header a:hover{
 }
 
 .recply .row.two .card{
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   width: 150px;
   align-items: center;
   justify-content: center;
   margin-right: 30px;
-  flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
 .recply .row.two .card img{

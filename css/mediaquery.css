@@ -1,0 +1,8 @@
+@media all and (max-width: 800px) {
+  .navbar{
+    height: 80px;
+  }
+  .recply{
+    margin-top: 155px;
+  }
+}
