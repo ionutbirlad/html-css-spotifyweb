@@ -155,6 +155,11 @@ body{
   color: #fff;
 }
 
+.sidebar .account i,
+.sidebar .account p{
+  display: inline;
+}
+
 .sidebar .account:hover{
   color: #1db954;
   cursor: pointer;
