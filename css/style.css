@@ -319,6 +319,7 @@ header a:hover{
 .recply{
   margin-top: 115px;
   padding: 20px;
+  position: relative;
 }
 
 .recply .row.one{
@@ -329,88 +330,19 @@ header a:hover{
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
+  height: 100%;
 }
 
 .recply .row.two .card{
-  display: flex;
-  flex-direction: column;
+  /* display: flex; */
+  /* flex-direction: column; */
   width: 150px;
-  align-items: center;
-  justify-content: center;
-  margin-right: 30px;
-  margin-bottom: 30px;
+  /* align-items: center;
+  justify-content: center; */
+  /* margin-right: 30px;
+  margin-bottom: 30px; */
 }
 
-.recply .row.two .card img{
-  margin-bottom: 15px;
-}
-
-.recply .row.two .card h5{
-
-}
-
-.recply .row.two .card p{
-
-}
-/* fine recply(recently played) */
-
-/* created_For */
-.created_for{
-  padding: 20px;
-}
-
-.created_for .row.one{
-  padding-bottom: 30px;
-}
-
-.created_for .row.two{
-  display: flex;
-  align-items: baseline;
-  justify-content: flex-start;
-}
-
-.created_for .row.two .card{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  margin-right: 30px;
-}
-
-.created_for .row.two .card img{
-  margin-bottom: 15px;
-}
-
-.created_for .row.two .card h5{
-
-}
-/*fine  created_For */
-
-/* popular */
-.popular{
-  padding: 20px;
-  margin-bottom: 100px;
-}
-
-.popular .row.one{
-  padding-bottom: 30px;
-}
-
-.popular .row.two{
-  display: flex;
-  align-items: baseline;
-  justify-content: flex-start;
-}
-
-.popular .row.two .card{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 150px;
-  margin-right: 30px;
-}
 /* prova */
 .front,.back{
   width: 150px;
@@ -448,12 +380,192 @@ header a:hover{
 
 
 
+.flex-content{
+  position: relative;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+  height: 150px;
 
+}
 
 
 /*prova  */
+
+.recply .row.two .card img{
+  /* margin-bottom: 15px; */
+}
+
+.recply .row.two .card h5{
+
+}
+
+.recply .row.two .card p{
+
+}
+/* fine recply(recently played) */
+
+/* created_For */
+.created_for{
+  padding: 20px;
+  position: relative;
+}
+
+.created_for .row.one{
+  padding-bottom: 30px;
+}
+
+.created_for .row.two{
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.created_for .row.two .card{
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  width: 150px;
+  margin-right: 30px;
+}
+
+/* prova */
+.front,.back{
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+  border-radius: 5px;
+}
+
+.front img{
+  height: 100%;
+}
+
+.front{
+  transform: perspective(600px) rotateY(0deg);
+}
+.back{
+  background: #f1f1f1;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content{
+  color: #2c3e50;
+  text-align: center;
+  width: 100%;
+}
+.card:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+
+
+
+.flex-content{
+  position: relative;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+  height: 150px;
+
+}
+
+
+/*prova  */
+
+.created_for .row.two .card img{
+}
+
+.created_for .row.two .card h5{
+
+}
+/*fine  created_For */
+
+/* popular */
+.popular{
+  padding: 20px;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.popular .row.one{
+  padding-bottom: 30px;
+}
+
+.popular .row.two{
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.popular .row.two .card{
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  width: 150px;
+  /* margin-right: 30px; */
+}
+
+/* prova */
+.popular .front,.popular .back{
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  backface-visibility: hidden;
+  position: absolute;
+  transition: transform .6s linear;
+  border-radius: 5px;
+  border-radius: 50%;
+}
+
+.front img{
+  height: 100%;
+}
+
+.front{
+  transform: perspective(600px) rotateY(0deg);
+}
+.back{
+  background: #f1f1f1;
+  transform: perspective(600px) rotateY(180deg);
+}
+.back-content{
+  color: #2c3e50;
+  text-align: center;
+  width: 100%;
+}
+.card:hover > .front{
+  transform: perspective(600px) rotateY(-180deg);
+}
+.card:hover > .back{
+  transform: perspective(600px) rotateY(0deg);
+}
+
+
+
+
+.flex-content{
+  position: relative;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 150px;
+  height: 150px;
+
+}
+
+
+/*prova  */
+
 .popular .row.two .card img{
-  margin-bottom: 15px;
   border-radius: 100px;
 }
 
