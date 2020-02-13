@@ -124,11 +124,10 @@
   }
   ul{
     position: fixed;
-    width: 100%;
+    width: calc(100% - 50px);
     height: 100vh;
     background: #333;
-    right: -100%;
-    top: 0;
+    top: -100%;
     text-align: center;
     padding: 80px 0;
     line-height: normal;
@@ -144,8 +143,7 @@
     right: 40px;
   }
   #chk:checked ~ ul{
-    right: 0;
-    width: calc(100% - 50px);
+    top: 0;
   }
 
 
