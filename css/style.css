@@ -288,8 +288,8 @@ header a:hover{
 }
 
 .recply .row.two .card{
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   width: 150px;
   align-items: center;
   justify-content: center;
