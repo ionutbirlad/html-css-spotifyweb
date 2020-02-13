@@ -343,7 +343,6 @@ header a:hover{
   margin-bottom: 30px; */
 }
 
-/* prova */
 .front,.back{
   width: 150px;
   height: 150px;
@@ -362,13 +361,19 @@ header a:hover{
   transform: perspective(600px) rotateY(0deg);
 }
 .back{
-  background: #f1f1f1;
   transform: perspective(600px) rotateY(180deg);
 }
 .back-content{
-  color: #2c3e50;
+  background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
   text-align: center;
   width: 100%;
+  height: 150px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .card:hover > .front{
   transform: perspective(600px) rotateY(-180deg);
@@ -376,21 +381,13 @@ header a:hover{
 .card:hover > .back{
   transform: perspective(600px) rotateY(0deg);
 }
-
-
-
-
 .flex-content{
   position: relative;
   margin-right: 30px;
   margin-bottom: 30px;
   width: 150px;
   height: 150px;
-
 }
-
-
-/*prova  */
 
 .recply .row.two .card img{
   /* margin-bottom: 15px; */
@@ -431,7 +428,6 @@ header a:hover{
   margin-right: 30px;
 }
 
-/* prova */
 .front,.back{
   width: 150px;
   height: 150px;
@@ -450,13 +446,19 @@ header a:hover{
   transform: perspective(600px) rotateY(0deg);
 }
 .back{
-  background: #f1f1f1;
   transform: perspective(600px) rotateY(180deg);
 }
 .back-content{
-  color: #2c3e50;
+  background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
   text-align: center;
   width: 100%;
+  height: 150px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .card:hover > .front{
   transform: perspective(600px) rotateY(-180deg);
@@ -464,21 +466,13 @@ header a:hover{
 .card:hover > .back{
   transform: perspective(600px) rotateY(0deg);
 }
-
-
-
-
 .flex-content{
   position: relative;
   margin-right: 30px;
   margin-bottom: 30px;
   width: 150px;
   height: 150px;
-
 }
-
-
-/*prova  */
 
 .created_for .row.two .card img{
 }
@@ -515,7 +509,6 @@ header a:hover{
   /* margin-right: 30px; */
 }
 
-/* prova */
 .popular .front,.popular .back{
   width: 150px;
   height: 150px;
@@ -535,13 +528,19 @@ header a:hover{
   transform: perspective(600px) rotateY(0deg);
 }
 .back{
-  background: #f1f1f1;
   transform: perspective(600px) rotateY(180deg);
 }
 .back-content{
-  color: #2c3e50;
+  background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
   text-align: center;
   width: 100%;
+  height: 150px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
 }
 .card:hover > .front{
   transform: perspective(600px) rotateY(-180deg);
@@ -549,10 +548,6 @@ header a:hover{
 .card:hover > .back{
   transform: perspective(600px) rotateY(0deg);
 }
-
-
-
-
 .flex-content{
   position: relative;
   margin-right: 30px;
@@ -561,9 +556,6 @@ header a:hover{
   height: 150px;
 
 }
-
-
-/*prova  */
 
 .popular .row.two .card img{
   border-radius: 100px;
