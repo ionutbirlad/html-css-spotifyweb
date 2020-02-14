@@ -203,4 +203,11 @@
   .player i{
     font-size: 7px;
   }
+  .player .container .center .row.two .bar::before{
+    display: none;
+  }
+
+  .player .container .center .row.two .bar::after{
+    display: none;
+  }
 }
